@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rigucci</title>
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Darker+Grotesque:wght@700&family=Lexend+Exa:wght@600&family=Playfair+Display:wght@500&family=Roboto:wght@300&display=swap" rel="stylesheet">
+    
+</head>
+<body>
+    <header>
+        <p class="logo"><a href="">RIGUCCI</a></p>
+        <nav class="navigation-links desktop">
+            <a href="#">Inicio</a>
+            <a href="pages/men/men.html">Hombres</a>
+            <a href="pages/women/women.html">Mujeres</a>
+        </nav>
+        <div class="icons desktop">
+
+            <img class="navbar-icon" src="assets/search-icon.svg" alt="">
+            <img class="navbar-icon" src="assets/user-icon.svg" alt="">
+            <img class="navbar-icon" src="assets/cart.svg" alt="">
+
+            <select name="language" id="language" onchange="location = this.value"> 
+                <option value="index-esp.html">Esp</option> 
+                <option value="index.html">
+                  Ing
+                </option> 
+            </select>
+        </div>
+        <div class="burguer-icon mobile">
+          
+          <label for="menu-toggle" id="menu-icon">
+            <img src="assets/burguer-menu.svg" alt="">
+          </label>
+          <input type="checkbox" id="menu-toggle">
+          <div id="menu-wrapper">
+              <ul id="menu">
+                  <li><a href="#">Opción 1</a><br></li>
+                  <li><a href="#">Opción 2</a><br></li>
+                  <li><a href="#">Opción 3</a><br><br><br><br><br><br></li>
+                  
+                  <li class="li-container">
+                    <div class="">
+                      <a href="#">
+                        <img class="navbar-icon" src="assets/search-icon.svg"     alt="">
+                      </a>
+                      <a href="#">
+                        Buscar
+                      </a>
+                    </div>
+                  </li>
+
+                  <li class="li-container">
+                    <div>
+                      <a href="#">
+                        <img class="navbar-icon" src="assets/user-icon.svg" alt="">
+                      </a>
+                      <a href="#">
+                        Perfil
+                      </a>
+                    </div>
+                  </li>
+
+                  <li class="li-container">
+                    <div class="">
+                      <a href="#">
+                        <img class="navbar-icon" src="assets/user-icon.svg" alt="">
+                      </a>
+                      <a href="#">
+                        Perfil
+                      </a>
+                    </div>
+                  </li>
+
+                  <li class="li-container">
+                    <div>
+                      <select name="language" id="language" onchange="location = this.value"> 
+                        <option value="index-esp.html">Esp</option> 
+                        <option value="index.html">
+                          Ing
+                        </option> 
+                    </select>
+                    </div>
+                  </li>
+                  
+
+                    
+                  
+              </ul>
+          </div>
+        </div>
+    </header>
+    <div class="hero">
+        <img src="assets/hero.jpg" alt="" width="100%" class="hero__img desktop">
+        <img src="assets/hero-mobile.jpg" alt="" width="100%" class="mobile">
+        <div class="hero__title-btn">
+            <p class="hero__title">
+                Invierno 2023
+            </p>
+            <a href="pages/winter/winter.html">
+              <button class="hero__btn">Explorar colección</button>
+            </a>  
+        </div>
+    </div>
+
+    <!-- desktop slider -->
+    <div class='demo-container desktop'>
+      <div class='carousel'>
+        <input checked='checked' class='activator' id='carousel-slide-activator-1' name='carousel' type='radio'>
+        <input class='activator' id='carousel-slide-activator-2' name='carousel' type='radio'>
+        <input class='activator' id='carousel-slide-activator-3' name='carousel' type='radio'>
+        <div class='controls'>
+          <label class='control control--forward' for='carousel-slide-activator-2'>&#8250;</label>
+        </div>
+        <div class='controls'>
+          <label class='control control--backward' for='carousel-slide-activator-1'>&#8249;</label>
+          <label class='control control--forward' for='carousel-slide-activator-3'>&#8250;</label>
+        </div>
+        <div class='controls'>
+          <label class='control control--backward' for='carousel-slide-activator-2'>&#8249;</label>
+        </div>
+        <div class='screen'>
+          <div class='track'>
+            <div class='item item--mobile-in-1 item--tablet-in-2 item--desktop-in-3'>
+              <div class='demo-content'>
+                <img src="assets/versaceBlazer1.webp" 
+                width="246px"
+                alt="">
+                <p>
+                  <span>Gianni Ribbon Mid Pumps</span><br>
+                  COP 4’000.000
+                </p>
+              </div>
+            </div>
+            <div class='item item--mobile-in-1 item--tablet-in-2 item--desktop-in-3'>
+              <div class='demo-content'>
+                <img src="assets/versaceZapatillas1.webp" 
+                width="246px"
+                alt="">
+                <p>
+                  <span>Gianni Ribbon Mid Pumps</span><br>
+                  COP 4’000.000
+                </p>
+              </div>
+            </div>
+            <div class='item item--mobile-in-1 item--tablet-in-2 item--desktop-in-3'>
+              <div class='demo-content'>
+                <img src="assets/versaceBolso1.webp" 
+                width="246px"
+                alt="">
+                <p>
+                  <span>Gianni Ribbon Mid Pumps</span><br>
+                  COP 4’000.000
+                </p>
+              </div>
+            </div>
+            <div class='item item--mobile-in-1 item--tablet-in-2 item--desktop-in-3'>
+              <div class='demo-content'>
+                <img src="assets/versaceZapatillas1.webp" 
+                width="246px"
+                alt="">
+                <p>
+                  <span>Gianni Ribbon Mid Pumps</span><br>
+                  COP 4’000.000
+                </p>
+              </div>
+            </div>
+            <div class='item item--mobile-in-1 item--tablet-in-2 item--desktop-in-3'>
+              <div class='demo-content'>
+                <img src="assets/versaceZapatillas1.webp" 
+                width="246px"
+                alt="">
+                <p>
+                  <span>Gianni Ribbon Mid Pumps</span><br>
+                  COP 4’000.000
+                </p>
+              </div>
+            </div>
+            <div class='item item--mobile-in-1 item--tablet-in-2 item--desktop-in-3'>
+              <div class='demo-content'>
+                <img src="assets/versaceZapatillas1.webp" 
+                width="246px"
+                alt="">
+                <p>
+                  <span>Gianni Ribbon Mid Pumps</span><br>
+                  COP 4’000.000
+                </p>
+              </div>
+            </div>
+            <div class='item item--mobile-in-1 item--tablet-in-2 item--desktop-in-3'>
+              <div class='demo-content'>
+                <img src="assets/versaceZapatillas1.webp" 
+                width="246px"
+                alt="">
+                <p>
+                  <span>Gianni Ribbon Mid Pumps</span><br>
+                  COP 4’000.000
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- mobile-slider -->
+    <div class="slider-wrapper mobile">
+      <div class="slider">
+          <div class="frame">
+              <div class="product-info">
+                  <img src="assets/versaceBlazer1.webp" width="100%" alt="">
+                  <p>
+                      <span>Gianni Ribbon Mid Pumps</span><br>
+                      COP 4’000.000
+                  </p>
+              </div>
+          </div>
+          <div class="frame">
+              <div class="product-info">
+                  <img src="assets/versaceBlazer1.webp" width="100%" alt="">
+                  <p>
+                      <span>Gianni Ribbon Mid Pumps</span><br>
+                      COP 4’000.000
+                  </p>
+              </div>
+          </div>
+          <div class="frame">
+              <div class="product-info">
+                  <img src="assets/versaceBlazer1.webp" width="100%" alt="">
+                  <p>
+                      <span>Gianni Ribbon Mid Pumps</span><br>
+                      COP 4’000.000
+                  </p>
+              </div>
+          </div>
+          <div class="frame">
+              <div class="product-info">
+                  <img src="assets/versaceBlazer1.webp" width="100%" alt="">
+                  <p>
+                      <span>Gianni Ribbon Mid Pumps</span><br>
+                      COP 4’000.000
+                  </p>
+              </div>
+          </div>
+          <div class="frame">
+              <!-- <div class="product-info">
+                  <img src="assets/versaceBlazer1.webp" width="100%" alt="">
+                  <p>
+                      <span>Gianni Ribbon Mid Pumps</span><br>
+                      COP 4’000.000
+                  </p>
+              </div> -->
+          </div>
+      </div>
+      <div class="slider-nav">
+          <a href="#slide-1"></a>
+          <a href="#slide-2"></a>
+          <a href="#slide-3"></a>
+      </div>
+  </div>
+
+    
+      
+    <!-- main section -->
+
+    <main>
+      
+      <section class="mens-clothing">
+        <img src="assets/mensClothing.jpg" alt="">
+        <p class="desktop">
+          <span>Ropa para caballero</span><br><br>
+          Desde trajes a medida hasta ropa casual de alta gama,
+          nuestra selección está diseñada para el hombre moderno que valora la calidad y la refinación. <br>
+          <button class="main__btn">Comprar</button>
+        </p>
+      </section>
+      <section class="womens-clothing">
+        <p class="desktop">
+          <span>Ropa para dama</span><br><br>
+          Desde vestidos de noche hasta elegantes conjuntos casuales, 
+          nuestra selección está diseñada para la mujer sofisticada 
+          que busca lujo y distinción. <br>
+          <button class="main__btn">Comprar</button>
+        </p>
+        <img src="assets/womensClothing.jpg" alt="">
+      </section>
+      <section class="newsletter">
+        <span>ENTRA AL MUNDO DE RIGUCCI</span> <br>
+        <p>
+          Mantente al tanto de eventos, colecciones y noticias exclusivas. 
+          <br>
+        </p>
+        <div class="wrapper">
+          <input id="user-email" name="email" type="email" placeholder="Ingresa tu email *">
+          <button type="submit">&#8594;</button>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer__container">
+        <div class="col">
+          <p>
+            <span>Servicio al cliente y FAQ</span> <br>
+            FAQ <br>
+            Contáctanos <br>
+            Guía de tallas <br>
+            Buscador de tiendas <br>
+          </p>
+        </div>
+        <div class="col">
+          <p>
+            <span>Sobre nosotros</span> <br>
+            Acerca de Rigucci <br>
+            Sostenebilidad <br>
+            Trabajos y Carrera <br>
+          </p>
+        </div>
+        <div class="col">
+          <p>
+            <span>Legal</span> <br>
+            Términos de Uso <br>
+            Términos y Condiciones <br>
+            Política de Privacidad <br>
+          </p>
+        </div>
+      </div>
+      <hr>
+      <div class="copyright">
+        <span>Copyright ⓒ 2023 Rigucci. Todos los derechos reservados.</span>
+        <div class="social-media-icons">
+          <ul>
+            <li><a href=""><img src="assets/facebook.svg" alt=""></a></li>
+            <li><a href=""><img src="assets/ex.svg" alt=""></a></li>
+            <li><a href=""><img src="assets/insta.svg" alt=""></a></li>
+            <li><a href=""><img src="assets/tiktok.svg" alt=""></a></li>
+            <li><a href=""><img src="assets/pinterest.svg" alt=""></a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+
+    
+
+</body>
+</html>
